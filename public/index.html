@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AngularJS + UI-Router + JSPM</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>header</header>
+    <nav>navigation</nav>
+    <ui-view></ui-view>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.20.15/system.js"></script>
+    <script defer src="system.config.js"></script>
+    <script defer src="app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            System.import('public/shell/app');
+        });
+    </script>
+</body>
+</html>

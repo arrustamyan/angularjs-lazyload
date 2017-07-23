@@ -1,0 +1,19 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Gagik Arustamyan",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.17.0-beta.41",
+    "typescript": "^2.3.3"
+  },
+  "dependencies": {
+    "@types/angular": "^1.6.17",
+    "@types/systemjs": "^0.20.1"
+  },
+  "scripts": {
+    "start": "sh build.sh"
+  }
+}

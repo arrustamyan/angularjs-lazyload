@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "system",
+        "rootDir": "src",
+        "outDir": "public",
+        "sourceMap": false,
+        "lib": ["es2017", "dom"]
+    },
+    "include": [
+        "src"
+    ]
+}
